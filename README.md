@@ -7,6 +7,9 @@
   - JavaScript
  - MySQL
  - Node
-
+ 
+## Command Line
 
 ![](images/pic1.PNG)
+
+![](images/pic2.PNG)
