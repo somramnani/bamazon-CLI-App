@@ -7,3 +7,6 @@
   - JavaScript
  - MySQL
  - Node
+
+
+![](images/pic1.PNG)
