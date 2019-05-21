@@ -94,7 +94,7 @@ function getTable() {
         var total = res[0].price * amountNeeded;
         var newQty = res[0].stock_quantity - amountNeeded;
         console.log("Your total cost for " + amountNeeded +" " + res[0].product_name + "is $" + total);
-        connection.query("UPDATE products SET stock_quantity = " + newQty + "WHERE id = " + connection.escape(ID), function(err,res){
+        connection.query("UPDATE products SET stock_quantity = " + newQty + " WHERE id = " + connection.escape(ID), function(err,res){
           if(err) throw err;
         } );
       }
