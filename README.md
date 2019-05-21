@@ -6,7 +6,7 @@
  ## Tools/Languages
   - JavaScript
  - MySQL
- - Node
+ - Node.js
  
 ## Command Line
 
